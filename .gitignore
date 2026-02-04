@@ -1,0 +1,17 @@
+node_modules
+dist
+.env
+*.db
+*.log
+.gemini
+android/app/build
+android/build
+cap-copy-*.tmp
+frontend/dist
+backend-node/node_modules
+backend-node/uploads
+backend-node/prisma/dev.db
+backend-node/.env
+venv
+__pycache__
+.DS_Store
