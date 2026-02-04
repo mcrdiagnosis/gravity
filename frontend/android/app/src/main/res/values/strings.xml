@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Gravity</string>
+    <string name="title_activity_main">Gravity</string>
+    <string name="package_name">com.gravity.audio</string>
+    <string name="custom_url_scheme">com.gravity.audio</string>
+    <string name="accessibility_service_description">Permite a Gravity grabar llamadas automáticamente para transcribirlas y analizarlas. Este servicio detecta cuando estás en una llamada de WhatsApp o teléfono y graba el audio para su posterior análisis con IA.</string>
+</resources>
