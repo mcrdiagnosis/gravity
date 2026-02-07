@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // For development, use your local machine's IP address (e.g., http://192.168.1.XX:8000)
 // For Easypanel, use your deployment URL.
-const API_URL = 'http://192.168.1.XXX:8000/api'; // Cambia XXX por tu IP local
+const API_URL = import.meta.env.VITE_API_URL || 'https://n8n-gravity-local.jspoor.easypanel.host/api';
 
 export class SyncService {
     private static getHeaders(token: string) {
